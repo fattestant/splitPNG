@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Split PNG!</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div droppable="true" id="drop_file">
+    <canvas hidden id="image_viewer"></canvas>
+    <h1 id="tips">拖入PNG图片</h1>
+  </div>
+  <script type="text/javascript" src="renderer.js"></script>
+</body>
+
+</html>
